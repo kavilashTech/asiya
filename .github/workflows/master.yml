@@ -20,6 +20,6 @@ jobs:
         server: www.kavilashtechnologies.in
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /public_html/website1/
+        server-dir: /public_html/asiya/
         protocol: ftps
         security: loose
