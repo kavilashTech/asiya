@@ -136,6 +136,10 @@ h2 {
 
 /* Footer */
 
+.footer-logo h3, .footer-logo p {
+text-align: left;
+}
+
 .footerlinks{
     text-decoration:none;
     text-align: left;
@@ -149,11 +153,11 @@ h2 {
 }
 
 .footer-menu h5{
-    color:red!important;
+    color:rgb(255, 255, 255)!important;
 }
 
 .footer-bar{
-    background-color:#000
+    background-color:#141823
 }
 .footer-bar span{
     font-size:10px;
