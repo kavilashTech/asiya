@@ -1,10 +1,54 @@
+/*-------- common styles start ----------------*/
+
+:root{
+    --theme-primary:#2EAEE1;
+    --theme-secondary:#154355;
+
+}
+
+body {
+    font-family: 'Calibri';font-size: 22px;
+}
+
+h2 {
+    font-family:sans-serif;
+    color:var(--theme-secondary);
+}
+
+.subhead{
+    font-size: 32px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.btn-theme {
+    background-color: var(--theme-primary);
+    color:#fff;
+    border:none;
+    /* border-color: var(--theme-primary); */
+}
+
+.btn-theme:hover {
+    background-color: #fff;
+    border: 1px solid;
+    border-color: var(--theme-primary);
+    color:var(--theme-secondary);
+    transform:scaleX(1.02);
+    /* transition: all 1s ease; */
+    transition: all .5s ease-in-out;
+}
+
+/*-------- common styles end ----------------*/
+
 /* Header */
 .custom-header .col-md-2 {
     white-space: nowrap; /* Prevent email ID from wrapping */
 } 
 
 .custom-header {
-    background-color: #330000;
+    /* background-color: #330000; */
+    /* background-color: #2EAEE1; */
+    background-color: var(--theme-secondary);
     color: white;
     text-align: center;
     padding: 3px 0;
@@ -47,9 +91,7 @@
 .hero {
     margin:30px 0px;
 }
-h2 {
-    font-family:sans-serif;
-}
+
 .hero p {
     margin:0px 100px;
     margin-bottom: 30px;
@@ -136,24 +178,42 @@ h2 {
 
 /* Footer */
 
-.footerlinks{
+.footer-logo h3, .footer-logo p {
+text-align: left;
+}
+
+.footerlinks a{
     text-decoration:none;
     text-align: left;
-    font-size:12px;
+    padding-left: 100px;
+    font-size:14px;
     font-weight:300;
+    color:#fff;
 
 }
-.footer-menu ul {
-    padding-left: 100px;
+/* .footerlinks a:hover {
+    background-color: yellow;
+} */
+
+.footer-menu ul li {
     text-align: left;
 }
+/* .footer-menu ul li a{
+    padding-left: 100px;
+    text-align: left;
+    text-decoration: none;
+    color:#fff;
+    font-size: 1rem;
+    font-weight: 400;
+} */
 
 .footer-menu h5{
-    color:red!important;
+    color:rgb(255, 255, 255)!important;
+
 }
 
 .footer-bar{
-    background-color:#000
+    background-color:#141823
 }
 .footer-bar span{
     font-size:10px;
