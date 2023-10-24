@@ -104,7 +104,7 @@ h2 {
 .navbar {
     text-align: center;
     vertical-align: middle;
-    font-family: Raleway;
+    /* font-family: Raleway; */
     box-shadow: 5px 10px rgba(0, 0, 0, 1);
     background: #fff;
     padding: 2px 50px;
