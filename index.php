@@ -1,62 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ANH Exim</title>
-
-    <!-- Include Bootstrap CSS & JS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/all.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</head>
-
-<body>
-
-    <section id="sticky-block">
-    <!-- Custom Header -->
-    <div class="custom-header text-white py-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">Mobile No: 1234567890</div>
-                <div class="col-md-2">Email ID: email@email.com</div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg" id="nav-3">
-        <!-- <div class="container"> -->
-            <a class="navbar-brand" href="#"><img src="./assets/images/logos/anhlogo.png" alt="Your Company Logo"
-                    width="100px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        <!-- </div> -->
-    </nav>
-</section>
-<div style="margin-top:4%">&nbsp;</div>
+<?php include 'includes/header.php'; ?>
     <!-- Carousel -->
     <div id="home-page-carousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -106,51 +49,59 @@
                         perfect blend of craftsmanship, style, and elegance. We're here to serve your needs and provide
                         you with the best that the world of textiles, millets, and jewelry has to offer.
                     </p>
-                    <div class="text-center">
+                    <!-- <div class="text-center">
                         <a href="#products" class="btn btn-theme btn-lg">View Products</a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Icons -->
-    <section id="icon-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="icon-block text-center mb-4">
-                        <img src="./assets/images/man-tie.svg" alt="Icon Image" width="100" height="100">
-                        <h4>Excellence</h4>
-                        <p>All our products are produced, sourced and sold with one thing in mind - Excellence.</p>
-                    </div>
+ <!-- Icons -->
+ <section id="icon-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="icon-block text-center mb-4">
+                    <img src="./assets/images/man-tie.svg" alt="Icon Image" width="100" height="100">
+                    <h4>Excellence</h4>
+                    <p>All our products are produced, sourced and sold with one thing in mind - Excellence.</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="icon-block text-center mb-4">
-                        <img src="./assets/images/calender.svg" alt="Icon Image" width="100" height="100">
-                        <h4>Punctual</h4>
-                        <p>Our orders are delivered on time as promised! Our processes ensure that delays are identified
-                            and prevented.</p>
-                    </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-block text-center mb-4">
+                    <img src="./assets/images/calender.svg" alt="Icon Image" width="100" height="100">
+                    <h4>Punctual</h4>
+                    <p>Our processes, ensure that our orders are delivered on time, thus saving your time and money!</p>
                 </div>
-                <div class="col-md-4">
-                    <div class="icon-block text-center mb-4">
-                        <img src="./assets/images/jacket.svg" alt="Icon Image" width="100" height="100">
-                        <h3>Quality</h3>
-                        <p>We ensure that the products sold by us talk for themselves. Quality is the utmost importance!
-                        </p>
-                    </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-block text-center mb-4">
+                    <img src="./assets/images/jacket.svg" alt="Icon Image" width="100" height="100">
+                    <h4>Quality</h4>
+                    <p>We ensure that the products sold by us talk for themselves. Quality is the utmost importance!
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="icon-block text-center mb-4">
+                    <!-- <i class="fa-regular fa-heart icon-4x"></i> -->
+                    <img src="./assets/images/icons/icons8-heart-100.png" alt="Icon Image" width="100" height="100">
+                    <h4>Focus</h4>
+                    <p>All products are made with love as the super ingredient, thus we get repeat orders!
+                    </p>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
     <!-- Products Section -->
-    <section id="products" class="bg-light py-5">
-        <div class="container">
-            <h2 class="text-center subhead">Product Categories</h2>
+    <section id="products" class="bg-light py-5 mx-auto">
+        <div class="container mx-auto">
+            <h2 class="text-center subhead">Categories</h2>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 product-card">
                 <!-- Product Card 1 -->
                 <div class="col mb-4">
                     <div class="card">
@@ -167,7 +118,7 @@
                 <div class="col mb-4">
                     <div class="card">
                         <div class="card-image-container">
-                            <img src="./assets/images/suit1.jpg" class="card-img-top" alt="Product 2">
+                            <img src="./assets/images/category-garment.webp" class="card-img-top" alt="Product 2">
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">garments</h5>
@@ -176,7 +127,7 @@
                     </div>
                 </div>
                 <!-- Product Card 3 -->
-                <div class="col mb-4">
+                <!-- <div class="col mb-4">
                     <div class="card">
                         <div class="card-image-container">
                             <img src="./assets/images/yellow-material.jpg" class="card-img-top" alt="Product 3">
@@ -187,7 +138,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!-- Product Card 4 -->
                 <div class="col mb-4">
                     <div class="card">
@@ -196,7 +147,7 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title">Millets</h5>
-                            <p class="card-text">All kinds of Millets sourced fresh from farms grown organically.</p>
+                            <p class="card-text">All kinds of Millets based products<br>sourced directly from farms.</p>
                         </div>
                     </div>
                 </div>
@@ -204,10 +155,14 @@
         </div>
     </section>
 
+
+   
+
+
     <!-- Product Range Section -->
     <section id="product-range" class="bg-light py-5">
         <div class="container">
-            <h2 class="text-center subhead">Product Range</h2>
+            <h2 class="text-center subhead">Products</h2>
             <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-between">
                 <!-- Product Card 1 -->
                 <div class="col mb-4">
@@ -331,85 +286,4 @@
         </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="bg-dark text-center text-white">
-        <!-- Grid container -->
-        <div class="container p-4">
-
-            <!-- Section: Links -->
-            <section class="">
-                <!--Grid row-->
-                <div class="row">
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer-logo">
-                        <!-- Your Company Logo -->
-                        <!-- <a href="#"><img src="./assets/images/LOGO.png" alt="Your Company Logo" width="120"></a> -->
-                        <h3>ANH EXIM</h3>
-                        <p>Excellence in International Trade</p>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0 footer-menu">
-                        <h5>Quick Links</h5>
-
-                        <ul class="list-unstyled  mb-0">
-                            <li class="footerlinks"><a href="#">Home</a></li>
-                            <li class="footerlinks"><a href="#">About Us</a></li>
-                            <li class="footerlinks"><a href="#">Service</a></li>
-                            <li class="footerlinks"><a href="#">Contacts</a> </li>
-                        </ul>
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-
-                    </div>
-                    <!--Grid column-->
-
-                    <!--Grid column-->
-                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-
-                    </div>
-                    <!--Grid column-->
-                </div>
-                <!--Grid row-->
-            </section>
-            <!-- Section: Links -->
-        </div>
-        <!-- Grid container -->
-
-        <!-- Copyright -->
-        <hr style="margin: 0; border-top: 1px solid white;">
-        <div class="text-center p-3 footer-bar">
-            <span>
-                © 2023 Copyright: <a class="text-white" href="#">Kavilash Technologies</a>
-            </span>
-        </div>
-        <!-- Copyright -->
-    </footer>
-    <!-- Footer -->
-
-
-    <!-- Copyright Footer (Even Smaller) -->
-    <!-- <footer style="background-color: black; padding: 0;" class="text-white text-center">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12">
-                    <hr style="margin: 0; border-top: 1px solid white;">
-                    <p class="fw-light" style="margin: 0;">
-                        <small>&copy; © ® All rights reserved.</small>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer> -->
-
-    <!-- Include Jquery JS -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
-    <!-- Include Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
+    <?php include 'includes/footer.php'; ?>

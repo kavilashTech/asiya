@@ -1,19 +1,26 @@
 /*-------- common styles start ----------------*/
 
 :root{
-    --theme-primary:#2EAEE1;
-    --theme-secondary:#154355;
+    --theme-primary:#30B3E7;
+    --theme-secondary:#364954;
+    --theme-grey:#9AAEBB;
+    --theme-yellow:#D39C64;
+    --theme-brown:#9A6933;
+    --dark-brown:#583611;
 
 }
 
 body {
-    font-family: 'Calibri';font-size: 22px;
+    /* font-family: 'Calibri';font-size: 22px; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'inter', sans-serif; */
+    font-weight: 400;
+
     /* background-color: red; */
 }
 
 h2 {
-    font-family:sans-serif;
-    color:var(--theme-secondary);
+    color:var(--theme-brown);
 }
 
 .subhead{
@@ -162,6 +169,14 @@ h2 {
     border: none;
     color: #000; /* Set the text color */
 }
+
+.product-card {
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 2px 2px 5px darkgrey;
+}    
 .card-image-container {
     height: 250px; /* Adjust the height as needed */
     overflow: hidden;
@@ -177,6 +192,7 @@ h2 {
     font-size:14px;
     font-weight:600;    
     text-align: center;
+    text-transform: uppercase;
 }
 .card-text {
     font-family: sans-serif;
@@ -199,8 +215,8 @@ h2 {
 .client ul li{
 	list-style: none;
 	display: inline-block;
-	width: 250px;
-	height: 250px;
+	width: 200px;
+	height: 200px;
 	position: relative;
 	overflow: hidden;
 	cursor: pointer;
@@ -234,6 +250,9 @@ h2 {
 
 
 /* Footer */
+footer {
+    background-color: var(--dark-brown);
+}
 
 .footer-logo h3, .footer-logo p {
 text-align: left;
