@@ -3,6 +3,9 @@
 <div id="home-page-carousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
+        <!-- <video class="img-fluid" autoplay loop muted>
+        <source src="assets/textil_video1.mp4" type="video/mp4" />
+      </video> -->
             <img src="./assets/images/slide1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
                 <h1>First slide label</h1>
@@ -166,7 +169,7 @@
     <div class="container">
         <div class="row">
             <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-            <h2 class="text-center subhead">Gallery</h2>
+                <h2 class="text-center subhead">Gallery</h2>
             </div>
 
             <div align="center">
@@ -278,6 +281,8 @@
         $(this).addClass("active");
 
     });
+
+
 </script>
 
 <?php include 'includes/footer.php'; ?>
