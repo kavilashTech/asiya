@@ -92,6 +92,27 @@ h2 {
     margin: 30px 0px;
     box-shadow: #364954 3px 3px 10px;
 }
+.box-part-about {
+    height:515px;
+    background-color: #f1f0f0;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: 30px 0px;
+    box-shadow: #364954 3px 3px 10px; 
+}
+
+.box-part-about img {
+    width:100%;
+ }
+.box-part-about h3 {
+    font-size:1.5rem;
+    font-weight: bold;
+
+    color:var(--dark-brown);
+    margin-top: 10px;
+
+
+ }
 
 .box-text {
     margin: 20px 0px;
@@ -369,6 +390,28 @@ text-align: left;
 .gallery_product
 {
     margin-bottom: 30px;
+}
+
+
+/* About page */
+
+.text-about {
+    height: 312px;
+    color: grey;
+
+}
+
+.block-content {
+    margin-bottom: 12px;
+}
+
+.img-about {
+    width: 58%;
+    text-align: center;
+}
+
+.about-block {
+    text-align: center;
 }
 
 /* Media queries */
