@@ -27,7 +27,7 @@
         <div class="custom-header text-white py-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-1"><i class="fa-solid fa-phone"></i>1234567890</div>
+                    <div class="col-md-2"><i class="fa-solid fa-phone"></i>1234567890</div>
                     <div class="col-md-2"><i class="fa-regular fa-envelope"></i>info@anhexim.com</div>
                 </div>
             </div>
