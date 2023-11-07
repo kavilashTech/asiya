@@ -112,7 +112,7 @@
 
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 product-card">
             <!-- Product Card 1 -->
-            <div class="col mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-image-container">
                         <img src="./assets/images/category-garment.webp" class="card-img-top" alt="Product 2">
@@ -124,7 +124,7 @@
                 </div>
             </div>
             <!-- Product Card 2 -->
-            <div class="col mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-image-container">
                         <img src="./assets/images/moringa.jpg" class="card-img-top" alt="Product 1">
@@ -149,7 +149,7 @@
                     </div>
                 </div> -->
             <!-- Product Card 4 -->
-            <div class="col mb-4">
+            <div class="col-md-4 mb-4">
                 <div class="card">
                     <div class="card-image-container">
                         <img src="./assets/images/millet1.jpg" class="card-img-top" alt="Product 4">
