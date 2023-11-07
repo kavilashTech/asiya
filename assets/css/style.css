@@ -48,11 +48,11 @@ h2 {
 /*-------- common styles end ----------------*/
 
 /* Header */
-.custom-header .col-md-2 {
+.custom-header {
     white-space: nowrap;
-    
-
-    /* Prevent email ID from wrapping */
+}
+.custom-header .row{
+    text-align: left;
 }
 
 .custom-header {
