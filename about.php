@@ -1,9 +1,5 @@
 <?php include 'includes/header.php'; ?>
 
-<style>
-
-</style>
-
 <div class="container">
     <h2 class="text-center mb-5 mt-4" style="font-size:36pt">About Us</h2>
     <section>

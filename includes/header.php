@@ -22,43 +22,52 @@
 
 <body>
 
-    <section id="sticky-block">
-        <!-- Custom Header -->
+    <!-- Custom Header -->
+    <div class="sticky-top">
         <div class="custom-header text-white py-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3"><i class="fa-solid fa-phone"></i> 1234567890</div>
-                    <div class="col-md-2"><i class="fa-regular fa-envelope"></i> email@email.com</div>
+                    <div class="col-md-1"><i class="fa-solid fa-phone"></i>1234567890</div>
+                    <div class="col-md-2"><i class="fa-regular fa-envelope"></i>info@anhexim.com</div>
                 </div>
             </div>
         </div>
+        <div class="" style="margin-bottom: 0px;">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg" id="nav-3">
+                <!-- <div class="container"> -->
+                <a class="navbar-brand" href="#"><img src="./assets/images/logos/anh_logo1.png" alt="Your Company Logo" width="100px"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.php">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Products
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="textile.php">Textile</a></li>
+                                <li><a class="dropdown-item" href="jewellery.php">Jewellery</a></li>
+                                <li><a class="dropdown-item" href="millets.php">Millets</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.php">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- </div> -->
+            </nav>
+        </div>
+    </div>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg" id="nav-3">
-            <!-- <div class="container"> -->
-            <a class="navbar-brand" href="#"><img src="./assets/images/logos/anh_logo1.png" alt="Your Company Logo"
-                    width="100px"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#products">Products</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.php">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- </div> -->
-        </nav>
-    </section>
-    <div style="margin-top:6.5%">&nbsp;</div>
+
+
+    <!-- <div style="margin-top:6.5%">&nbsp;</div> -->

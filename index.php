@@ -127,11 +127,11 @@
             <div class="col mb-4">
                 <div class="card">
                     <div class="card-image-container">
-                        <img src="./assets/images/Jewellery.jpg" class="card-img-top" alt="Product 1">
+                        <img src="./assets/images/moringa.jpg" class="card-img-top" alt="Product 1">
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Jewellery</h5>
-                        <p class="card-text">High Quality Jewellery with modern and contemporary designs</p>
+                        <h5 class="card-title">Moringa</h5>
+                        <p class="card-text">Farm Fresh Moringa Products packed with Nutrients</p>
                     </div>
                 </div>
             </div>
