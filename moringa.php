@@ -4,15 +4,18 @@
     .social-box .box {
         background: #FFF;
         border-radius: 10px;
+        border:1px solid var(--dark-brown);
         cursor: pointer;
         margin-top: 10px;
+        margin-bottom:10px;
         padding: 40px 10px;
         transition: all 0.5s ease-out;
+        height:80%;
     }
 
     .social-box .box:hover {
         /* box-shadow: 0 0 6px #4183D7; */
-        box-shadow: 0 0 6px var(--dark-brown);
+        box-shadow: 0 0 9px var(--dark-brown);
     }
 
     .social-box .box-text {
@@ -21,10 +24,8 @@
         margin: 20px 0;
     }
 
-    .social-box .box-btn a {
-        color: #4183D7;
-        font-size: 16px;
-        text-decoration: none;
+    .social-box .text-center {
+        /* margin-bottom:10px; */
     }
 
     .social-box h3 {
