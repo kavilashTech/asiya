@@ -454,12 +454,13 @@ object-fit: cover;
 
 .content-block {
     border: 1px solid grey;
+    border-radius: 6px;
     box-shadow: 3px 3px 5px #000;
 }
 
 .l-block {
     width: 10%;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     border-radius: 13%;
     padding: 3px;
     margin-right: 30px;

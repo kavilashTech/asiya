@@ -203,7 +203,7 @@
 
                     <div class="contact-info-content">
                         <h4>Address</h4>
-                        <p>123 Test side Road,<br /> Test, Town, <br />123456</p>
+                        <p>Hansi Alpha Apartment, 1st Floor,<br />Kavyalbysanda, Bangalore<br />560032</p>
                     </div>
                 </div>
 
@@ -214,7 +214,8 @@
 
                     <div class="contact-info-content">
                         <h4>Phone</h4>
-                        <p>(+91) 123 456 7890</p>
+                        <p>(+91) 9886114464</p>
+                        <p>(+91) 9986611424</p>
                     </div>
                 </div>
 
