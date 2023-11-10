@@ -8,22 +8,22 @@
       </video> -->
             <img src="./assets/images/slide1.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1>First slide label</h1>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h1>High Quality Garments</h1>
+                <p>Experience the comfort, durability, and style designed to suit every individual and occasion.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="./assets/images/slider2.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1>Second slide label</h1>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h1>High Quality Garments</h1>
+                <p>Create unforgettable memories with our collection of family costumes.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="./assets/images/slider3.jpg" class="d-block w-100" alt="...">
             <div class="carousel-caption d-none d-md-block">
-                <h1>Third slide label</h1>
-                <p>Some representative placeholder content for the first slide.</p>
+                <h1>Moringa based products</h1>
+                <p>Discover the natural goodness of moringa leaves and powder</p>
             </div>
         </div>
     </div>
@@ -44,12 +44,8 @@
             <div class="col-md-12">
                 <h2 class="text-center subhead">Welcome to ANH</h2>
                 <p class="text-center">
-                    Welcome to our company, where we specialize in exporting a wide range of high-quality products.
-                    We take pride in offering a diverse selection that includes textiles, garments, millets, and
-                    exquisite artificial jewelry. With a commitment to excellence, we bring you the finest in each
-                    category, crafted to meet the highest standards. Explore our offerings and experience the
-                    perfect blend of craftsmanship, style, and elegance. We're here to serve your needs and provide
-                    you with the best that the world of textiles, millets, and jewelry has to offer.
+                    
+Step into the world of fashion with <strong>ANH EXIM</strong>, a dynamic and newly launched export company specializing in ready-made garments.  We bring you a fresh perspective on style and comfort, offering a diverse range of fashionable clothing that caters to the global market. With a commitment to quality and the latest trends, we are here to redefine the fashion landscape.  Discover a world of possibilities with ANH Exim, your trusted partner in ready-made garment exports.
                 </p>
                 <!-- <div class="text-center">
                         <a href="#products" class="btn btn-theme btn-lg">View Products</a>
@@ -175,7 +171,7 @@
             <div align="center">
                 <button class="btn btn-default filter-button" data-filter="all">All</button>
                 <button class="btn btn-default filter-button" data-filter="textile">Textile</button>
-                <button class="btn btn-default filter-button" data-filter="jewellery">Jewellery</button>
+                <button class="btn btn-default filter-button" data-filter="moringa">Moringa</button>
                 <button class="btn btn-default filter-button" data-filter="millets">Millets</button>
             </div>
             <br />
@@ -186,8 +182,8 @@
                 <img src="assets/images/gallery/textile1.png" class="img-responsive port-image">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter jewellery">
-                <img src="assets/images/gallery/jewellery1.png" class="img-responsive port-image">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter moringa">
+                <img src="assets/images/gallery/moringa1.jpg" class="img-responsive port-image">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter textile">
@@ -214,16 +210,16 @@
                 <img src="assets/images/gallery/millet3.png" class="img-responsive port-image">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter jewellery">
-                <img src="assets/images/gallery/jewellery2.png" class="img-responsive port-image">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter moringa">
+                <img src="assets/images/gallery/moringa2.jpg" class="img-responsive port-image">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter textile">
                 <img src="assets/images/gallery/textile5.png" class="img-responsive port-image">
             </div>
 
-            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter jewellery">
-                <img src="assets/images/gallery/jewellery3.png" class="img-responsive port-image">
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter moringa">
+                <img src="assets/images/gallery/moringa3.jpg" class="img-responsive port-image">
             </div>
 
             <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter textile">

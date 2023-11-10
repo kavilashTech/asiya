@@ -54,7 +54,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="textile.php">Textile</a></li>
-                                <li><a class="dropdown-item" href="jewellery.php">Jewellery</a></li>
+                                <li><a class="dropdown-item" href="moringa.php">Moringa</a></li>
                                 <li><a class="dropdown-item" href="millets.php">Millets</a></li>
                             </ul>
                         </li>

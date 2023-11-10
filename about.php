@@ -14,7 +14,7 @@
                     <div class="jumbotron jumbotron-fluid text-about">
                         <div class="container">
                             <h1 class="text-center">ANH Exim</h1>
-                            <p>ANH Exim is a recently launched export-import firm, driven by a passion for global trade. With fresh ideas and a commitment to delivering quality and value, we specialize in facilitating international business connections. Our focus is on providing personalized solutions to help businesses expand their reach and source products from around the world. Trust us to be your partner in navigating the world of international trade, where possibilities are endless, and opportunities are boundless. We aim to create value for our clients, partners, and the communities we serve.</p>
+                            <p>ANH Exim is a recently launched export-import firm, driven by a passion for global trade. With fresh ideas and a commitment to delivering quality and value, we specialize in facilitating international business connections. Our focus is on providing personalized solutions to help businesses expand their reach and source products from around the world.  Trust us to be your partner in navigating the world of international trade, where possibilities are endless, and opportunities are boundless.  We aim to create value for our clients, partners, and the communities we serve.</p>
                         </div>
                     </div>
                 </div>
