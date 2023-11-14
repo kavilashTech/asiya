@@ -23,7 +23,7 @@
         background-color: #fff;
         text-align: center;
         border-radius: 50%;
-        color: blue;
+        color: var(--theme-primary);
     }
 
     .contact-info-icon i {
