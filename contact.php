@@ -30,7 +30,7 @@ if (isset($_POST['btnSubmit'])) {
     //admin email
     $phpemail->AddAddress(ADMIN_EMAIL);
 
-    $phpemail->From = 'contact@anhexim.com';
+    $phpemail->From = $anhEmail;
     $phpemail->Subject = "New Query from Website";
     $phpemail->MsgHTML($email_body);
     $phpemail->addBCC('kavilashtech@gmail.com');
