@@ -369,7 +369,8 @@ h2 {
 }
 
 .footer-links a {
-    color: #737373
+    color: #737373;
+    text-decoration: none;
 }
 
 .footer-links a:active,
@@ -400,9 +401,21 @@ h2 {
 .copyright-text {
     margin: 0
 }
+
 .footer-bar span {
     font-size: 12px;
 }
+.footer-bar a{
+    text-decoration: none;
+}
+
+.trademark:hover{
+    color: orange !important;
+}
+
+/* .footer-bar a:hover {
+
+} */
 
 
 
@@ -475,9 +488,9 @@ h2 {
     .site-footer [class^=col-] {
         margin-bottom: 30px
     }
+
     .footer-bar span {
         font-size: 11px;
-        color:red;
     }
 }
 
@@ -490,10 +503,11 @@ h2 {
     .site-footer .social-icons {
         text-align: center
     }
+
     .footer-bar span {
         font-size: 10px;
-        color:blue;
     }
+
     .social-icons li.title {
         display: block;
         margin-right: 0;

@@ -32,7 +32,7 @@
         <div class="row">
             <div class="col-md-8 col-sm-6 col-xs-12">
                 <p class="copyright-text">Copyright &copy; 2023 All Rights Reserved by
-                    ANHEXIM.
+                    <span style="color:#ffffff;">ANHEXIM</span>.
                 </p>
             </div>
 
@@ -51,7 +51,7 @@
         <hr style="margin: 0; border-top: 1px solid white;">
         <div class="text-center footer-bar">
             <span>
-                Design & Development : <a class="text-white" href="#">Kavilash Technologies</a>
+                Design & Development : <a class="trademark" href="https://kavilashtechnologies.in/">Kavilash Technologies</a>
             </span>
         </div>
     </div>
