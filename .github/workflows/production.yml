@@ -20,6 +20,6 @@ jobs:
         server: www.kagrotech.com
         username: ${{ secrets.Pftp_username }}
         password: ${{ secrets.Pftp_password }}
-        server-dir: /public_html/anhexim.com/demo
+        server-dir: /public_html/anhexim.com/demo/
         protocol: ftps
         security: loose
