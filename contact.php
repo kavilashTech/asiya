@@ -1,5 +1,54 @@
 <?php include 'includes/header.php'; ?>
 
+<?php
+
+require('includes/connection.php');
+require('emailheaders.php');
+
+if (isset($_POST['btnSubmit'])) {
+
+    $anhName = $_REQUEST['anhName'];
+    $anhEmail = $_REQUEST['anhEmail'];
+    $anhMessage = $_REQUEST['anhMessage'];
+
+
+    $variables = array();
+
+    $variables['imgpath'] = SITE_URL;
+    $variables['anhName'] = $anhName;
+    $variables['anhEmail'] = $anhEmail;
+    $variables['anhMessage'] = $anhMessage;
+
+    $template = file_get_contents("includes/feedbackTemplate.html");
+
+    foreach ($variables as $key => $value) {
+        $template = str_replace('{{ ' . $key . ' }}', $value, $template);
+      }
+
+    $email_body = $template;
+
+    //admin email
+    $phpemail->AddAddress(ADMIN_EMAIL);
+
+    $phpemail->From = 'contact@anhexim.com';
+    $phpemail->Subject = "New Query from Website";
+    $phpemail->MsgHTML($email_body);
+    $phpemail->addBCC('kavilashtech@gmail.com');
+
+    if (!$phpemail->Send()) {
+        echo '<p style="color:red"></p>';
+        echo '<script>document.getElementById("error").innerHTML = "Error sending email. Contact Administrator";</script>';
+        exit;
+    }
+    //clear all mail receipients and Attachments
+    $phpemail->clearAddresses();
+    $phpemail->clearAttachments();
+}
+
+?>
+
+
+
 <style>
     #section-contactus {
         position: relative;
@@ -118,7 +167,7 @@
 
     .contact-form .input-box input[type="submit"] {
         background-color: var(--theme-primary);
-        border:1px solid var(--theme-secondary);
+        border: 1px solid var(--theme-secondary);
         border-radius: 5px;
     }
 
@@ -189,14 +238,8 @@
 </div>
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1949760467587!2d77.60555237519736!3d13.023252413743506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17a6f916f891%3A0x2f0549e2aefae5a8!2sHansi%20Alpha%20Apartment!5e0!3m2!1sen!2sin!4v1699605485174!5m2!1sen!2sin" 
-    width="100%" 
-    height="450" 
-     style="border:0;margin-top:30px;" 
-     allowfullscreen="" 
-     loading="lazy" 
-     referrerpolicy="no-referrer-when-downgrade">
-    </iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.1949760467587!2d77.60555237519736!3d13.023252413743506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae17a6f916f891%3A0x2f0549e2aefae5a8!2sHansi%20Alpha%20Apartment!5e0!3m2!1sen!2sin!4v1699605485174!5m2!1sen!2sin" width="100%" height="450" style="border:0;margin-top:30px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
 <section id="section-contactus">
 
     <div class="container">
@@ -239,25 +282,25 @@
             </div>
 
             <div class="contact-form">
-                <form action="" id="contact-form">
+                <form id="contact-form" method="post">
                     <h2>Send Message</h2>
                     <div class="input-box">
-                        <input type="text" required="true" name="">
-                        <span>Full Name</span>
+                        <input type="text" required="true" name="anhName" id="anhName" placeholder="Full Name">
+                        <!-- <span>Full Name</span> -->
                     </div>
 
                     <div class="input-box">
-                        <input type="email" required="true" name="">
-                        <span>Email</span>
+                        <input type="email" required="true" name="anhEmail" id="anhEmail" placeholder="Email">
+                        <!-- <span>Email</span> -->
                     </div>
 
                     <div class="input-box">
-                        <textarea required="true" name=""></textarea>
-                        <span>Type your Message...</span>
+                        <textarea required="true" name="anhMessage" id="anhMessage" placeholder="Type your message..."></textarea>
+                        <!-- <span>Type your Message...</span> -->
                     </div>
 
                     <div class="input-box">
-                        <input type="submit" value="Send" name="">
+                        <input type="submit" value="Send" name="btnSubmit">
                     </div>
                 </form>
             </div>
