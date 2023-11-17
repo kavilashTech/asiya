@@ -35,6 +35,7 @@ if (isset($_POST['btnSubmit'])) {
     $phpemail->MsgHTML($email_body);
     $phpemail->addBCC('kavilashtech@gmail.com');
 
+
     if (!$phpemail->Send()) {
         echo '<p style="color:red"></p>';
         echo '<script>document.getElementById("error").innerHTML = "Error sending email. Contact Administrator";</script>';
@@ -276,7 +277,7 @@ if (isset($_POST['btnSubmit'])) {
 
                     <div class="contact-info-content">
                         <h4>Email</h4>
-                        <p>info@anhexim.com</p>
+                        <p>contact@anhexim.com</p>
                     </div>
                 </div>
             </div>
