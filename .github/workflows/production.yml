@@ -5,7 +5,7 @@ on:
   push:
     branches:
       - production
-name: 🚀 Deploy website on push
+name: 🚀 Deploy Production website on push
 jobs:
   web-deploy:
     name: 🎉 Deploy
