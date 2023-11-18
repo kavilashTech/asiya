@@ -30,10 +30,10 @@ if (isset($_POST['btnSubmit'])) {
     //admin email
     $phpemail->AddAddress(ADMIN_EMAIL);
 
-    $phpemail->From = $anhEmail;
+    $phpemail->From = ADMIN_EMAIL;
     $phpemail->Subject = "New Query from Website";
     $phpemail->MsgHTML($email_body);
-    $phpemail->addBCC('kavilashtech@gmail.com');
+    // $phpemail->addBCC('kavilashtech@gmail.com');
 
 
     if (!$phpemail->Send()) {
@@ -41,6 +41,8 @@ if (isset($_POST['btnSubmit'])) {
         echo '<script>document.getElementById("error").innerHTML = "Error sending email. Contact Administrator";</script>';
         exit;
     }
+
+
     //clear all mail receipients and Attachments
     $phpemail->clearAddresses();
     $phpemail->clearAttachments();
