@@ -27,8 +27,8 @@
         <div class="custom-header text-white py-1">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-2"><i class="fa-solid fa-phone"></i>1234567890</div>
-                    <div class="col-md-2"><i class="fa-regular fa-envelope"></i>info@anhexim.com</div>
+                    <div class="col-sm-3 col-xs-5"><i class="fa-solid fa-phone"></i>(+91) 9886114464 / 9986611424 </div>
+                    <div class="col-sm-3  col-xs-5"><i class="fa-regular fa-envelope"></i>contact@anhexim.com</div>
                 </div>
             </div>
         </div>
