@@ -581,6 +581,7 @@ h2 {
 
 }
 
+
 .block-content {
     margin-bottom: 12px;
 }
@@ -717,7 +718,7 @@ h2 {
     font-weight: 400;
 }
 
-/* Portfolio block textile */
+/* Textile Block - Portfolio */
 
 .portfolio-wrapper>div {
     display: flex;
@@ -753,7 +754,21 @@ h2 {
     grid-row: span 2;
 }
 
+/* Millet Block  */
+.img-millet {
+border-radius: 50%;
+max-width: 60%;
+}
 
+.text-millet {
+height: 312px;
+color: grey;
+font-size:1em;
+}
+.text-millet h3{
+    color:#000;
+    
+}
 
 /* Media queries */
 @media(max-width: 576px) {
