@@ -405,11 +405,12 @@ h2 {
 .footer-bar span {
     font-size: 12px;
 }
-.footer-bar a{
+
+.footer-bar a {
     text-decoration: none;
 }
 
-.trademark:hover{
+.trademark:hover {
     color: orange !important;
 }
 
@@ -755,24 +756,79 @@ h2 {
 }
 
 /* Millet Block  */
+
+.millet-block-content {
+    margin-bottom: 12px;
+}
+
+
 .img-millet {
-border-radius: 50%;
-max-width: 60%;
+    border-radius: 50%;
+    max-width: 90%;
 }
 
 .text-millet {
-height: 312px;
-color: grey;
-font-size:1em;
+    height: 312px;
+    /* color: grey; */
+    font-size: 1em;
 }
-.text-millet h3{
-    color:#000;
-    
+
+.text-millet h3 {
+    color: #000;
 }
+
+/* Moringa Block  */
+
+.img-moringa {
+    border-radius: 50%;
+    max-width: 90%;
+}
+
+.text-moringa h3 {
+    color: #000;
+    font-size:1.2em;
+    font-weight: 400;
+}
+
 
 /* Media queries */
 @media(max-width: 576px) {
     .hero p {
         margin: 0px 5px;
     }
+    
+    .text-millet {
+        height: 312px;
+        /* color: grey; */
+        font-size: .8em;
+    }
+}
+
+@media(max-width: 770px) {
+    .millet-block-content {
+        margin-bottom: 35px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .text-millet {
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(min-width: 770px) {
+    .millet-block-content {
+        margin-bottom: 35px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .text-millet {
+        margin-bottom: 30px;
+    }
+    /* .img-millet{
+        max-width:90%;
+    } */
+
 }
