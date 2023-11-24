@@ -25,12 +25,14 @@
     </div> -->
     <section>
         <div class="container">
-            <div class="row no-gutters block-content">
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
+            <div class="row no-gutters millet-block-content">
+                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"> -->
+                <div class="col-md-4 text-center">
                     <!--img-->
                     <img src="assets/images/products/millet1.jpg" alt="demo-img" class="img-millet img-fluid">
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"> -->
+                <div class="col-md-8">
                     <!--text-->
                     <div class="jumbotron jumbotron-fluid text-millet">
                         <div class="container">
@@ -42,11 +44,13 @@
             </div>
         </div>
     </section>
+
     <section>
         <div class="container">
-            <div class="row no-gutters block-content">
+            <div class="row no-gutters millet-block-content">
 
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"> -->
+                <div class="col-md-8">
                     <!--text-->
                     <div class="jumbotron jumbotron-fluid text-millet">
                         <div class="container">
@@ -56,7 +60,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center">
+                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"> -->
+                <div class="col-md-4 text-center">
                     <!--img-->
                     <img src="assets/images/products/millet2.jpg" alt="demo-img" class="img-millet img-fluid">
                 </div>
@@ -65,38 +70,6 @@
     </section>
 
 
-    <!-- <div class="container d-flex mb-3 p-3 content-block">
-        <div class="l-block">
-            <p>Rich in Nutrients</p>
-        </div>
-        <div class="r-block">
-            Different millets bring various nutrients to the table. By incorporating multiple millets, you can access a wide range of vitamins, minerals, and antioxidants, contributing to overall health and well-being. Millets provide a variety of amino acids, the building blocks of proteins. Combining different millets can help ensure a more balanced intake of essential amino acids. Millets are high in dietary fiber, which can promote digestive health, regulate blood sugar levels, and help maintain a healthy weight. Millets are naturally gluten-free, making them an excellent choice for individuals with celiac disease or gluten sensitivity.
-        </div>
-    </div> -->
-    <!-- <div class="container d-flex mb-3 p-3 content-block">
-        <div class="l-block">
-            <p>Heart Health</p>
-        </div>
-        <div class="r-block">
-            Millets are known to have a positive effect on heart health. They can help reduce cholesterol levels and lower blood pressure due to their fiber content and potassium. The combination of fiber and protein in millets can help you feel fuller for longer, aiding in weight management by reducing overeating.
-        </div>
-    </div> -->
-    <!-- <div class="container d-flex mb-3 p-3 content-block">
-        <div class="l-block">
-            <p>Bone Health</p>
-        </div>
-        <div class="r-block">
-            Finger millet (ragi) is a great source of calcium and can contribute to better bone health, making it suitable for individuals with lactose intolerance or those who require additional calcium in their diet. Millets can help with digestion and prevent digestive disorders due to their high fiber content.
-        </div>
-    </div> -->
-    <!-- <div class="container d-flex mb-3 p-3 content-block">
-        <div class="l-block">
-            <p>Overall Health</p>
-        </div>
-        <div class="r-block">
-            When incorporating multiple millets into your diet, you can enjoy a well-rounded source of nutrients while also experiencing a diverse range of flavors and textures. Whether it's using millets in porridge, bread, rotis, or as a rice substitute, experimenting with different combinations can be an enjoyable and health-conscious choice.
-        </div>
-    </div> -->
 
     <p class="sub-page-header-text">When incorporating multiple millets into your diet, you can enjoy a well-rounded source of nutrients while also experiencing a diverse range of flavors and textures. Whether it's using millets in porridge, bread, rotis, or as a rice substitute, experimenting with different combinations can be an enjoyable and health-conscious choice.</p>
 
