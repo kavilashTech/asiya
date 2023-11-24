@@ -50,8 +50,8 @@
                     <!--text-->
                     <div class="jumbotron jumbotron-fluid text-millet">
                         <div class="container">
-                            <h3 style="text-align:right;">Heart & Bone Health</h3>
-                            <p style="text-align:right;">Millets are known to have a positive effect on heart health. They can help reduce cholesterol levels and lower blood pressure due to their fiber content and potassium. The combination of fiber and protein in millets can help you feel fuller for longer, aiding in weight management by reducing overeating.
+                            <h3>Heart & Bone Health</h3>
+                            <p>Millets are known to have a positive effect on heart health. They can help reduce cholesterol levels and lower blood pressure due to their fiber content and potassium. The combination of fiber and protein in millets can help you feel fuller for longer, aiding in weight management by reducing overeating.
                             <br><br>Finger millet (ragi) is a great source of calcium and can contribute to better bone health, making it suitable for individuals with lactose intolerance or those who require additional calcium in their diet. Millets can help with digestion and prevent digestive disorders due to their high fiber content</p>
                         </div>
                     </div>
