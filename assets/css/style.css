@@ -775,6 +775,8 @@ h2 {
 
 .text-millet h3 {
     color: #000;
+    font-size:1.2em;
+    font-weight: 700;
 }
 
 /* Moringa Block  */
@@ -787,7 +789,7 @@ h2 {
 .text-moringa h3 {
     color: #000;
     font-size:1.2em;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 
