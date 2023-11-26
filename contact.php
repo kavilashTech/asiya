@@ -45,7 +45,7 @@ if (isset($_POST['btnSubmit'])) {
         echo '<script>document.getElementById("error").innerHTML = "Error sending email. Contact Administrator";</script>';
         $emailSuccess = "";
         exit;
-    } 
+    }
     echo '<script>document.getElementById("message").innerHTML = "Information Submitted!";</script>';
 
     //clear all mail receipients and Attachments
@@ -312,7 +312,10 @@ if (isset($_POST['btnSubmit'])) {
                         <textarea required="true" name="anhMessage" id="anhMessage" placeholder="Type your message..."></textarea>
                         <!-- <span>Type your Message...</span> -->
                     </div>
-                    <div class="message"><?php iif($emailSuccess == '1', echo "test", ""); ?></div>
+                    <div class="message"><?php
+                                            if ($emailSuccess == '1') {
+                                                echo "Information Submitted";
+                                            }  ?></div>
                     <div class="input-box">
                         <input type="submit" value="Send" name="btnSubmit">
                     </div>
