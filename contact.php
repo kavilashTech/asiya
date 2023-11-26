@@ -41,7 +41,7 @@ if (isset($_POST['btnSubmit'])) {
         echo '<script>document.getElementById("error").innerHTML = "Error sending email. Contact Administrator";</script>';
         exit;
     }
-
+    echo '<script>document.getElementById("message").innerHTML = "Information Submitted!";</script>';
 
     //clear all mail receipients and Attachments
     $phpemail->clearAddresses();
@@ -53,6 +53,12 @@ if (isset($_POST['btnSubmit'])) {
 
 
 <style>
+
+    .message{
+        color:green;
+        font-weight: bold;
+        /* visibility: hidden; */
+    }
     #section-contactus {
         position: relative;
         z-index: 3;
@@ -301,7 +307,7 @@ if (isset($_POST['btnSubmit'])) {
                         <textarea required="true" name="anhMessage" id="anhMessage" placeholder="Type your message..."></textarea>
                         <!-- <span>Type your Message...</span> -->
                     </div>
-
+<div class="message"></div>
                     <div class="input-box">
                         <input type="submit" value="Send" name="btnSubmit">
                     </div>
