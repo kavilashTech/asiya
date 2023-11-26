@@ -7,15 +7,13 @@
         margin-bottom: 40px;
     }
 
-    .textile-card {
-        height: 700px;
+
+
+    .textile-card img {
+        width:80%;
+        align-self: center;
     }
 
-    .textile-card h3 {
-        color: var(--dark-brown);
-        font-size: 22px;
-        text-align: center;
-    }
 
     .textile-card :hover {
         background: rgba(211, 156, 100, 1);
@@ -50,21 +48,21 @@
                 </div>
                 <div class="card textile-card">
                     <img src="assets/images/products/jean2.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body textile-card-body">
                         <h3>Stretch Denim</h3>
                         <p>Stretch jeans are made by blending cotton denim with elastane (spandex) to provide a comfortable, flexible fit. This is especially popular in skinny jeans and slim-fit styles.</p>
                     </div>
                 </div>
                 <div class="card textile-card">
                     <img src="assets/images/products/jean3.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body textile-card-body">
                         <h3>Selvedge Denim</h3>
                         <p>Selvedge denim is known for its high-quality construction and finished edges. It's often used in premium jeans.</p>
                     </div>
                 </div>
                 <div class="card textile-card">
                     <img src="assets/images/products/jean4.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
+                    <div class="card-body textile-card-body">
                         <h3>Distressed Denim</h3>
                         <p>Distressed or ripped jeans are intentionally altered to give them a worn and vintage look. They are typically made from traditional denim but undergo various distressing techniques.</p>
                     </div>
@@ -140,113 +138,8 @@
         </div>
 
 
-
-
-    <!-- <section class="padding-lg">
-        <h2 class="text-center mb-5 mt-5" style="font-size:30pt; color:#0a193b;">Featured Products</h2>
-        <div class="container">
-            <ul class="row textile-block">
-                <li class="col-12 col-md-6 col-lg-3">
-                    <div class="cnt-block tshirt equal-height">
-                        <h3>Cotton</h3>
-                        <p>Cotton T-shirts are the most popular and widely worn. They are known for their comfort, breathability, and softness.</p>
-                    </div>
-                </li>
-                <li class="col-12 col-md-6 col-lg-3">
-                    <div class="cnt-block tshirt equal-height">
-                        <h3>Blended Fabrics</h3>
-                        <p>Some T-shirts are made from a blend of cotton and other fibers, such as polyester or rayon, to add durability, moisture-wicking properties, or stretch.</p>
-                    </div>
-                </li>
-                <li class="col-12 col-md-6 col-lg-3">
-                    <div class="cnt-block tshirt equal-height">
-                        <h3>Linen</h3>
-                        <p>Linen T-shirts are lightweight and breathable, making them suitable for hot weather.</p>
-                    </div>
-                </li>
-                <li class="col-12 col-md-6 col-lg-3">
-                    <div class="cnt-block tshirt equal-height">
-                        <h3>Jersey Knit</h3>
-                        <p>T-shirts are often made from jersey knit fabric, which is a type of cotton knit that is comfortable and drapes well.</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </section> -->
-
-    <!-- T-shirt section -->
-    <!-- <h2 class="text-center mb-5 mt-5" style="font-size:30pt; color:#0a193b;">Kids Dresses</h2>
-    <div class="row">
-
-        <div class="col-lg-6 col-md-10 kids-block">
-            <div class="card card-tshirt">
-                <div class="card-body cardbody-tshirt">
-                    <div class="media d-flex">
-                        <div class="ico-wrap">
-                            <i class="fas fa-shirt"></i>
-                        </div>
-                        <div class="text-wrap">
-                            <p class="display-5">Customized T-shirts</p>
-                            <p class="display-6">
-                                Whether you're promoting your business, celebrating an event, or creating personalized fashion, we offer a wide range of high-quality
-                                T-shirts in various colors, styles, and sizes. Promote your brand, beautifully printed or embroidered.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-10 kids-block">
-            <div class="card card-tshirt">
-                <div class="card-body cardbody-tshirt">
-                    <div class="media d-flex">
-                        <div class="ico-wrap">
-                            <i class="fas fa-school"></i>
-                        </div>
-                        <div class="text-wrap">
-                            <p class="display-5">Kids School Uniforms</p>
-                            <p class="display-6">Our kids' school uniforms combine classic & smart designs with comfort and durable options to keep your child look sharp and feel confident. Various colours, types as per your school's requirement.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-6 col-md-10 kids-block">
-            <div class="card card-tshirt">
-                <div class="card-body cardbody-tshirt">
-                    <div class="media d-flex">
-                        <div class="ico-wrap">
-                            <i class="fas fa-trophy"></i>
-                        </div>
-                        <div class="text-wrap">
-                            <p class="display-5">Kids Sports Wear</p>
-                            <p class="display-6">For the young athletes and sports enthusiasts, our kids' sports wear is designed to support an active lifestyle. From soccer practice to track and field events, we have the gear to keep kids comfortable and motivated. With vibrant colors, making sure kids look and feel great while engaging in their favorite sports.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6 col-md-10 kids-block">
-            <div class="card card-tshirt">
-                <div class="card-body cardbody-tshirt">
-                    <div class="media d-flex">
-                        <div class="ico-wrap">
-                            <i class="fas fa-heart"></i>
-                        </div>
-                        <div class="text-wrap">
-                            <p class="display-5">Kids Daily Wear</p>
-                            <p class="display-6">From casual t-shirts and jeans to cozy pajamas, different styles, patterns, and sizes ensure they look great, feel comfortable and satisfies all the needs of the child as well as parents. Our daily wear items are designed to be durable and easy to care for, making them perfect for the active and busy lives of children.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
     <!-- <div class="mt-3">&nbsp;</div>    -->
 
-    <section class="padding-lg">
-        <!-- <h2>Gallery</h2> -->
-    </section>
 </div>
 
 <?php include 'includes/footer.php'; ?>
