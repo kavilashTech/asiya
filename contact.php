@@ -312,7 +312,7 @@ if (isset($_POST['btnSubmit'])) {
                         <textarea required="true" name="anhMessage" id="anhMessage" placeholder="Type your message..."></textarea>
                         <!-- <span>Type your Message...</span> -->
                     </div>
-                    <div class="message"><$php iif($emailSuccess == 1, echo "test";, ""); ?></div>
+                    <div class="message"><?php iif($emailSuccess == '1', echo "test", ""); ?></div>
                     <div class="input-box">
                         <input type="submit" value="Send" name="btnSubmit">
                     </div>
