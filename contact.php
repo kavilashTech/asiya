@@ -5,12 +5,16 @@
 require('includes/connection.php');
 require('emailheaders.php');
 
+$emailSuccess = "";
+
+
 if (isset($_POST['btnSubmit'])) {
 
     $anhName = $_REQUEST['anhName'];
     $anhEmail = $_REQUEST['anhEmail'];
     $anhMessage = $_REQUEST['anhMessage'];
 
+    $emailSuccess = "1";
 
     $variables = array();
 
@@ -23,7 +27,7 @@ if (isset($_POST['btnSubmit'])) {
 
     foreach ($variables as $key => $value) {
         $template = str_replace('{{ ' . $key . ' }}', $value, $template);
-      }
+    }
 
     $email_body = $template;
 
@@ -39,8 +43,9 @@ if (isset($_POST['btnSubmit'])) {
     if (!$phpemail->Send()) {
         echo '<p style="color:red"></p>';
         echo '<script>document.getElementById("error").innerHTML = "Error sending email. Contact Administrator";</script>';
+        $emailSuccess = "";
         exit;
-    }
+    } 
     echo '<script>document.getElementById("message").innerHTML = "Information Submitted!";</script>';
 
     //clear all mail receipients and Attachments
@@ -53,12 +58,12 @@ if (isset($_POST['btnSubmit'])) {
 
 
 <style>
-
-    .message{
-        color:green;
+    .message {
+        color: green;
         font-weight: bold;
         /* visibility: hidden; */
     }
+
     #section-contactus {
         position: relative;
         z-index: 3;
@@ -307,7 +312,7 @@ if (isset($_POST['btnSubmit'])) {
                         <textarea required="true" name="anhMessage" id="anhMessage" placeholder="Type your message..."></textarea>
                         <!-- <span>Type your Message...</span> -->
                     </div>
-<div class="message"></div>
+                    <div class="message"><$php iif($emailSuccess == 1, echo "test";, ""); ?></div>
                     <div class="input-box">
                         <input type="submit" value="Send" name="btnSubmit">
                     </div>
