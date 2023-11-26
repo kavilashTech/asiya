@@ -638,7 +638,7 @@ h2 {
 }
 
 .sub-page-header-text {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 40px;
     margin-bottom: 30px;
 }
@@ -650,6 +650,16 @@ h2 {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.textile-card {
+    height: 700px;
+}
+
+.textile-card h3 {
+    color: var(--dark-brown);
+    font-size: 22px;
+    text-align: center;
 }
 
 .padding-lg {
@@ -770,12 +780,12 @@ h2 {
 .text-millet {
     height: 312px;
     /* color: grey; */
-    font-size: 1em;
+    font-size: 18px;
 }
 
 .text-millet h3 {
     color: #000;
-    font-size:1.2em;
+    font-size: 1.2em;
     font-weight: 700;
 }
 
@@ -786,9 +796,15 @@ h2 {
     max-width: 90%;
 }
 
+.text-moringa {
+    height: 312px;
+    /* color: grey; */
+    font-size: 18px;
+}
+
 .text-moringa h3 {
     color: #000;
-    font-size:1.2em;
+    font-size: 1.2em;
     font-weight: 700;
 }
 
@@ -798,39 +814,82 @@ h2 {
     .hero p {
         margin: 0px 5px;
     }
-    
+
+    .sub-page-header-text {
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 30px;
+    }
+
     .text-millet {
         height: 312px;
         /* color: grey; */
         font-size: .8em;
     }
+
+    .textile-card {
+        height: 730px;
+    }
+
+    .text-moringa {
+        font-size: 16px;
+        margin-bottom: 70px;
+    }
 }
 
-@media(max-width: 770px) {
+@media (min-width:576px) and (max-width: 770px) {
     .millet-block-content {
         margin-bottom: 35px;
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
     }
 
     .text-millet {
-        margin-bottom: 30px;
+        margin-bottom: 70px;
     }
+
+    .text-moringa {
+        margin-bottom: 80px;
+
+    }
+
+    .img-moringa {
+        border-radius: 50%;
+        max-width: 90%;
+        margin: 30px 0px;
+    }
+
+    .textile-card {
+        height: 620px;
+    }
+
+
+    .textile-card-body p {
+        font-size: 12px;
+    }
+
+    .textile-card-body h3 {
+        color: var(--dark-brown);
+        font-size: 12px;
+        text-align: center;
+    }
+
 
 }
 
 @media(min-width: 770px) {
     .millet-block-content {
         margin-bottom: 35px;
-        display:flex;
+        display: flex;
         flex-wrap: wrap;
     }
 
     .text-millet {
         margin-bottom: 30px;
     }
-    /* .img-millet{
-        max-width:90%;
-    } */
+
+    .text-moringa {
+        margin-bottom: 145px;
+    }
 
 }

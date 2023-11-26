@@ -53,12 +53,10 @@
     <section>
         <div class="container">
             <div class="row no-gutters block-content">
-                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"> -->
                 <div class="col-md-4 text-center">
                     <!--img-->
                     <img src="assets/images/products/moringa1.jpg" alt="demo-img" class="img-moringa img-fluid">
                 </div>
-                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"> -->
                 <div class="col-md-8">
                     <!--text-->
                     <div class="jumbotron jumbotron-fluid text-moringa">
@@ -80,7 +78,6 @@
     <section>
         <div class="container">
             <div class="row no-gutters block-content">
-                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"> -->
                 <div class="col-md-8">
                     <!--text-->
                     <div class="jumbotron jumbotron-fluid text-moringa">
@@ -93,7 +90,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"> -->
                 <div class="col-md-4 text-center">
                     <!--img-->
                     <img src="assets/images/products/moringa2.jpg" alt="demo-img" class="img-moringa img-fluid">
@@ -104,12 +100,10 @@
     <section>
         <div class="container">
             <div class="row no-gutters block-content">
-                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center"> -->
                 <div class="col-md-4 text-center">
                     <!--img-->
                     <img src="assets/images/products/moringa3.jpg" alt="demo-img" class="img-moringa img-fluid">
                 </div>
-                <!-- <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 col-xl-6"> -->
                 <div class="col-md-8">
                     <!--text-->
                     <div class="jumbotron jumbotron-fluid text-moringa">
@@ -127,151 +121,7 @@
             </div>
         </div>
     </section>
-    <!--     
-    <div class="social-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h4>Appearance</h4>
-                        </div>
-                        <div class="box-text">
-                            <span>Moringa leaves are small to medium-sized green leaves that grow on the moringa tree, which is native to parts of Africa and Asia. They are typically composed of leaflets with a feather-like arrangement.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-xs-12  text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h4>Nutrient-Rich</h4>
-                        </div>
-                        <div class="box-text">
-                            <span>Moringa leaves are highly nutritious, containing a wealth of essential vitamins and minerals. They are a rich source of vitamin C, vitamin A, vitamin K, calcium, potassium, and iron.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h4>Protein</h4>
-                        </div>
-                        <div class="box-text">
-                            <span>Moringa leaves are a good source of plant-based protein, making them an attractive option for vegetarians and vegans.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h4>Antioxidants</h4>
-                        </div>
-                        <div class="box-text">
-                            <span>They are rich in antioxidants, including quercetin, chlorogenic acid, and beta-carotene. These compounds help combat oxidative stress and reduce inflammation in the body.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-    </div> -->
-
-    <!-- <h4 style="text-align: center;margin-top:50px;font-weight:bold;color:var(--dark-green);">Medicinal Uses</h4>
-
-    <div class="social-box">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h3>Nutritional Supplement</h3>
-                        </div>
-                        <div class="box-text">
-                            <span>Moringa leaves are often used as a dietary supplement to boost overall health and well-being. They can help fill nutritional gaps in the diet.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-xs-12  text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h3>Anti-Inflammatory</h3>
-                        </div>
-                        <div class="box-text">
-                            <span>The anti-inflammatory properties of moringa leaves make them valuable in managing inflammatory conditions and reducing inflammation-related symptoms.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h3>Antioxidant Properties</h3>
-                        </div>
-                        <div class="box-text">
-                            <span>Moringa leaves may help protect cells from damage by free radicals, potentially reducing the risk of chronic diseases.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h3>Antimicrobial</h3>
-                        </div>
-                        <div class="box-text">
-                            <span>Moringa has demonstrated antimicrobial properties, making it beneficial for treating infections and promoting wound healing.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h3>Blood Sugar Control</h3>
-                        </div>
-                        <div class="box-text">
-                            <span>Some research suggests that moringa leaves may help regulate blood sugar levels, making them of interest to those with diabetes.</span>
-                        </div>
-
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-xs-12 text-center">
-                    <div class="box">
-                        <div class="box-title">
-                            <h3>Cholesterol Management</h3>
-                        </div>
-                        <div class="box-text">
-                            <span>Moringa leaves may have a positive impact on cholesterol levels, potentially reducing the risk of heart disease.</span>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-
-
-    <!-- <p class="sub-page-header-text"><strong>Culinary Uses:</strong>
-        Moringa leaves are commonly used in various culinary dishes in countries where the moringa tree is grown. They can be added to soups, stews, curries, and salads.
-        Moringa leaves are often used to make a nutritious, green leafy vegetable side dish.<br><br>
-        They can also be dried and powdered to make moringa powder, which is used as a nutritional supplement or as a seasoning in various dishes.
-    </p>
-    <p class="sub-page-header-text"><strong>Natural Skincare:</strong> leaves can be used to create natural skincare products due to their anti-inflammatory and antioxidant properties. They are used in masks, creams, and lotions.</p> -->
+    ,<div style="height:30px">&nbsp;</div>
 
 </div>
 
