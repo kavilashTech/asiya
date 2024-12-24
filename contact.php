@@ -290,7 +290,7 @@ if (isset($_POST['btnSubmit'])) {
 
                     <div class="contact-info-content">
                         <h4>Email</h4>
-                        <p>contact@anhexim.com</p>
+                        <p>contact@anhexim.in</p>
                     </div>
                 </div>
             </div>
