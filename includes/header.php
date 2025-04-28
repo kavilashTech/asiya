@@ -29,6 +29,7 @@
                 <div class="row">
                     <div class="col-sm-3 col-xs-5"><i class="fa-solid fa-phone"></i>(+91) 9886114464 / 9986611424 </div>
                     <div class="col-sm-3  col-xs-5"><i class="fa-regular fa-envelope"></i>contact@anhexim.in</div>
+                    <div class="col-sm-3  col-xs-5"><i class="fa-regular fa-envelope"></i>GST : 29ASUPS9236J1ZL</div>
                 </div>
             </div>
         </div>
